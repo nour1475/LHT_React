@@ -2,7 +2,7 @@ const path = require("path");
 const { app, BrowserWindow, ipcMain } = require("electron");
 const isDev = require("electron-is-dev");
 
-require("@electron/remote/main").initialize();
+// require("@electron/remote/main").initialize();
 
 function createWindow() {
   // Create the browser window.
